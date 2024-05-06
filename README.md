@@ -21,7 +21,6 @@ Question 4
 
 Answer == 
 echo $file
- # check if the file exists
  if [ ! -f $file ]; then
          echo "File dose not exists: $file"
  else
