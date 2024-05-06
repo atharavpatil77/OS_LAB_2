@@ -10,14 +10,26 @@ Answer = echo "Shell scripting is fun"
              echo "$message"
 ![image](https://github.com/atharavpatil77/OS_LAB_2/assets/142776774/d000ace9-6cc0-494f-9da7-e6a4cd52574b)
 
-4. store the output of the command "hostname" in a variable .Display " this script is running on _." where " " is the output of the "Hostname" command .
+3. store the output of the command "hostname" in a variable .Display " this script is running on _." where " " is the output of the "Hostname" command .
 
    Answer == host=$(hostname)
              echo "This script is running on $host."
   ![image](https://github.com/atharavpatil77/OS_LAB_2/assets/142776774/793b113f-5862-4b33-a643-5c7f1efe2d49)
 
-6. 
- 
+Question 4 
+
+
+Answer == echo $file
+# check if the file exists
+if [ ! -f $file ]; then
+        echo "File dose not exists: $file"
+else
+        echo "file found $file"
+fi
+![image](https://github.com/atharavpatil77/OS_LAB_2/assets/142776774/e115ecc1-08ff-413e-85cc-4bf7b2b8e431)
+
+
+   
 
 
 
