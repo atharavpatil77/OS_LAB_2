@@ -55,7 +55,25 @@ else
 fi
 
 
-![image](https://github.com/atharavpatil77/OS_LAB_2/assets/142776774/195b4822-fc1f-4568-be9f-9ce5a430420c)
+![image](https://github.com/atharavpatil77/OS_LAB_2/assets/142776774/195b4822-fc1f-4568-be9f-9ce5a430420c) 
+
+
+Question 7 
+
+Answer == 
+FILE=$1
+if [ -f “$FILE” ]
+  then
+    echo “$FILE is a reguler file”
+elif [ -d “$FILE” ]
+  then
+    echo “$FILE is a directory”
+else
+   echo “$FILE is another type of file”
+fi
+ls -l $FILE
+![image](https://github.com/atharavpatil77/OS_LAB_2/assets/142776774/1a3b07f5-a70e-40ea-b0fb-a3a261c72631)
+
 
 
 
