@@ -19,13 +19,14 @@ Answer = echo "Shell scripting is fun"
 Question 4 
 
 
-Answer == echo $file
-# check if the file exists
-if [ ! -f $file ]; then
-        echo "File dose not exists: $file"
-else
-        echo "file found $file"
-fi
+Answer == 
+echo $file
+ # check if the file exists
+ if [ ! -f $file ]; then
+         echo "File dose not exists: $file"
+ else
+         echo "file found $file"
+ fi
 ![image](https://github.com/atharavpatil77/OS_LAB_2/assets/142776774/e115ecc1-08ff-413e-85cc-4bf7b2b8e431)
 
 
